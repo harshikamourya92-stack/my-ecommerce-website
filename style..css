@@ -1,0 +1,214 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    border:border-box;
+}
+
+
+
+
+.navbar{
+    height: 80px;
+    align-items: center;
+    background-color:rgb(255, 82, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+ .logo{
+    padding: 0.50px;
+    background-image: url("swiggy\ image.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+} 
+
+.nav-menu p{
+    display: inline-block;
+     margin-left: 30px;
+     color: white;
+     font-weight: bold;
+      cursor: pointer;
+}
+
+
+
+.border{
+    border:2px solid transparent;
+    padding:8px;
+}
+
+.border:hover{
+    border: 2px solid black;
+    
+
+}
+
+.hero-panel1{
+    height: 640px;
+    width: 100%;
+    background-color:rgb(255, 82, 0);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.20px;
+}
+
+
+.heading p{
+    color: white;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 55px;
+    max-width:800px;
+  line-height:1.3;
+}
+
+
+.location-box{
+    position: relative;
+}
+
+.location-box i{
+    position: absolute;
+    left: 15px;
+    top:35%;
+}
+
+.location-box input{
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .search-input input{
+    width: 350px;
+    height: 60px;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+
+
+.food-section{
+    display: flex;
+    gap:40px;
+    margin-top: 20px;
+}
+
+
+
+
+.box{
+    border:border-box solid black;
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 10px;
+}
+
+
+.box-content h1{
+text-align:center;
+font-size:28px;
+font-weight: 800;
+margin-bottom: 5px;
+margin-left: 20px;
+font-family:arial,sans-serif;
+text-align: left;
+color:rgb(74, 73, 73);
+}
+
+
+.box-content h2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:arial,sans-serif;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-left: 20px;
+    color: gray;
+}
+
+.box-img{
+     height: 200px;
+     width: 260px;
+     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+p{
+    color: black;
+}
+
+.scroll-line{
+    width: 100%;
+    height: 12px;
+    background-color: white;
+    margin:20px auto;
+}
+
+
+
+.heading2{
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+.food{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.food-img{
+    display:inline-block;
+     height:200px;
+     width: 200px;
+     background-size:contain;
+    background-repeat: no-repeat;
+     margin-top:40px;
+}
+
+
+.food p{
+text-align: center;
+font-family: arial;
+font-size: larger;
+font-style: normal;
+}
+
+
+
+
+
+
+
+
